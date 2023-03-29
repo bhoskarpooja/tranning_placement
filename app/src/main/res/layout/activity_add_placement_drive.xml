@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPlacementDrive">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:inputType="text"
+        android:letterSpacing="0.03"
+        android:text=" Add New Placement Drive"
+        android:textColor="@color/purple_700"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imagebutton"
+        android:layout_width="283dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/edcomapanyname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.137"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <EditText
+        android:id="@+id/edcomapanyname"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/forget"
+        android:hint="Company Name"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:textColor="@color/purple_700"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/eddescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edlocation"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/forget"
+        android:hint="Location"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:textColor="@color/purple_700"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/uploaddrive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edrole"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/forget"
+        android:hint="Allowed Department"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:textColor="@color/purple_700"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/uploaddrive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/uploaddrive"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/btn_bg"
+        android:text="Upload Drive"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/eddescription"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="172dp"
+        android:background="@drawable/forget"
+        android:hint="Description"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:textColor="@color/purple_700"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/uploaddrive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

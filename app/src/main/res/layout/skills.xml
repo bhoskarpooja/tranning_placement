@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065">
+
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="96dp"
+            android:layout_height="185dp" />
+
+        <TextView
+            android:id="@+id/studname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:text="This is Demo Name"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/studmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/studname"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:text="This is Course Name"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/studdegree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/studmail"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-2dp"
+
+            android:layout_toRightOf="@id/img1"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/studpro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/studdegree"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/studyear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/studpro"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/studdept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/studyear"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:textSize="20dp" />
+
+
+        <!--        <TextView-->
+
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_below="@id/edarea"-->
+        <!--            android:layout_marginLeft="10dp"-->
+        <!--            android:layout_toRightOf="@id/img1"-->
+
+        <!--            android:id="@+id/edcontactno"-->
+        <!--            android:textSize="20dp"/>-->
+
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/delete"-->
+        <!--            android:layout_width="32dp"-->
+        <!--            android:layout_height="32dp"-->
+        <!--            android:layout_below="@id/edcontactno"-->
+        <!--            android:layout_marginLeft="100dp"-->
+        <!--            android:layout_marginTop="11dp"-->
+        <!--            android:layout_toRightOf="@id/img1"-->
+        <!--            android:src="@drawable/ic_baseline_delete_24" />-->
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

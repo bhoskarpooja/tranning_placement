@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "109346469281",
+    "project_id": "tranning-placement",
+    "storage_bucket": "tranning-placement.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109346469281:android:43aa9c44fecc6d7f8887e0",
+        "android_client_info": {
+          "package_name": "com.example.tranning_placement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109346469281-niidtq2u8862nvq3ui45qa8pqufao1u4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-9KnY7qep6i9fWDOFSpPDFkq6IvulBAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109346469281-niidtq2u8862nvq3ui45qa8pqufao1u4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
